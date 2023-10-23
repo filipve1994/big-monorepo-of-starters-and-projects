@@ -1,5 +1,5 @@
 {
-  "name": "eslint-config-custom-server",
+  "name": "eslint-config-custom-server-template-docker",
   "version": "0.0.0",
   "license": "MIT",
   "main": "index.js",

@@ -1,5 +1,5 @@
 {
-	"name": "docs",
+	"name": "docs-template-svelte",
 	"version": "0.0.1",
 	"private": true,
 	"scripts": {
@@ -10,10 +10,10 @@
 		"format": "prettier --plugin-search-dir . --write ."
 	},
 	"dependencies": {
-		"ui": "workspace:*"
+		"ui-template-svelte": "workspace:*"
 	},
 	"devDependencies": {
-		"eslint-config-custom": "workspace:*",
+		"eslint-config-custom-template-svelte": "workspace:*",
 		"@sveltejs/adapter-auto": "^2.0.0",
 		"@sveltejs/kit": "^1.20.4",
 		"eslint": "^8.28.0",

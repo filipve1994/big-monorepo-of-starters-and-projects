@@ -1,5 +1,5 @@
 {
-	"name": "web",
+	"name": "web-template-svelte",
 	"version": "0.0.1",
 	"private": true,
 	"scripts": {
@@ -15,7 +15,7 @@
 		"test:unit": "vitest"
 	},
 	"dependencies": {
-		"ui": "workspace:*"
+		"ui-template-svelte": "workspace:*"
 	},
 	"devDependencies": {
 		"@playwright/test": "^1.28.1",
@@ -24,7 +24,7 @@
 		"@typescript-eslint/eslint-plugin": "^6.0.0",
 		"@typescript-eslint/parser": "^6.0.0",
 		"eslint": "^8.28.0",
-		"eslint-config-custom": "workspace:*",
+		"eslint-config-custom-template-svelte": "workspace:*",
 		"prettier": "^2.8.0",
 		"prettier-plugin-svelte": "^2.10.1",
 		"svelte": "^4.0.5",

@@ -1,5 +1,5 @@
 {
-  "extends": "tsconfig/nextjs.json",
+  "extends": "tsconfig-template-docker/nextjs.json",
   "compilerOptions": {
     "plugins": [{ "name": "next" }]
   },

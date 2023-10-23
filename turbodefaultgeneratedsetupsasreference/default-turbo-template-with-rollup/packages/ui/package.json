@@ -1,5 +1,5 @@
 {
-  "name": "ui",
+  "name": "ui-template-rollup",
   "version": "0.0.0",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -14,10 +14,10 @@
     "@types/react": "^18.2.5",
     "@types/react-dom": "^18.2.4",
     "eslint": "^7.32.0",
-    "eslint-config-custom": "workspace:*",
+    "eslint-config-custom-template-rollup": "workspace:*",
     "react": "^18.2.0",
     "rollup": "^2.79.0",
-    "tsconfig": "workspace:*",
+    "tsconfig-template-rollup": "workspace:*",
     "typescript": "^4.5.2"
   }
 }

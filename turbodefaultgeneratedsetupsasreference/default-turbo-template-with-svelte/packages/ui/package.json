@@ -1,5 +1,5 @@
 {
-  "name": "ui",
+  "name": "ui-template-svelte",
   "version": "0.0.0",
   "description": "Styles and components for use in svelte websites",
   "type": "module",
@@ -11,7 +11,7 @@
     "format": "prettier --write --ignore-path=../../.prettierignore ."
   },
   "devDependencies": {
-    "eslint-config-custom": "workspace:*",
+    "eslint-config-custom-template-svelte": "workspace:*",
     "svelte": "^3.9.2"
   }
 }
