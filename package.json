@@ -1,10 +1,16 @@
 {
+  "name": "big-monorepo-of-starters-and-projects",
+  "version": "0.0.0",
+  "description": "An integrated frontend monorepo with Vite, Vitepress, Vitest, Turbo, Lefthook, Prettier, ESLint, Cypress, and more.",
   "private": true,
   "scripts": {
     "build": "turbo run build",
     "dev": "turbo run dev",
     "lint": "turbo run lint",
-    "format": "prettier --write \"**/*.{ts,tsx,md}\""
+    "format": "prettier --write \"**/*.{ts,tsx,md}\"",
+    "docs:dev": "vitepress dev",
+    "docs:build": "vitepress build",
+    "docs:preview": "vitepress preview"
   },
   "devDependencies": {
     "eslint": "^7.32.0",
